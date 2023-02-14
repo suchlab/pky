@@ -26,5 +26,12 @@
   "homepage": "https://github.com/suchlab/pky#readme",
   "files": [
     "bin/**/*"
-  ]
+  ],
+  "dependencies": {
+    "@clack/prompts": "^0.2.2",
+    "cryptr": "^6.1.0",
+    "node-fetch": "^3.3.0",
+    "picocolors": "^1.0.0"
+  },
+  "type": "module"
 }
