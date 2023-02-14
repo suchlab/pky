@@ -1,0 +1,30 @@
+{
+  "name": "pky",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bin/pky.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pky": "bin/pky.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suchlab/pky.git"
+  },
+  "keywords": [
+    "registry",
+    "packages",
+    "github"
+  ],
+  "author": "itaibo@hey.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suchlab/pky/issues"
+  },
+  "homepage": "https://github.com/suchlab/pky#readme",
+  "files": [
+    "bin/**/*"
+  ]
+}
