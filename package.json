@@ -1,7 +1,7 @@
 {
   "name": "pky",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fine-grained access to GitHub Packages",
   "main": "bin/pky.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

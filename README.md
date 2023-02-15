@@ -1,5 +1,5 @@
 # pky
-Fine-grained access to GitHub packages
+Fine-grained access to GitHub Packages
 
 ## The problem
 GitHub Packages is awesome. You can publish private packages for you or your team to use.
