@@ -75,15 +75,18 @@ async function main() {
 	const s = spinner();
 	s.start('Uploading encrypted token');
 
-	await fetch('https://api.pky.suchlab.com/v1/packages', {
+	const upload = await fetch('https://api.pky.suchlab.com/v1/packages', {
 		method: 'post',
-		body: {
+		headers: { 'Content-Type': 'application/json' },
+		body: JSON.stringify({
 			provider,
 			packageName,
 			randomTokenHashed,
 			encryptedProviderToken
-		},
+		}),
 	});
+
+	await upload.json();
 
 	s.stop('Encrypted token uploaded!');
 
