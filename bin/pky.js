@@ -77,7 +77,7 @@ async function main() {
 
 	await fetch('https://api.pky.suchlab.com/v1/packages', {
 		method: 'post',
-		data: {
+		body: {
 			provider,
 			packageName,
 			randomTokenHashed,
