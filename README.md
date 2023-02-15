@@ -48,6 +48,9 @@ You will now be able to create a `.npmrc` file with the following configuration:
 //npm.pky.suchlab.com/:_authToken=pky_21f38e6ca610a12baa280fe93770b5e2
 ```
 
+<img width="588" alt="pky-cli" src="https://user-images.githubusercontent.com/4226553/219037376-1980b272-fb2a-4ed0-8641-b9b41a558b11.png">
+
+
 ### Various packages
 You can have multiple `pky` packages in a project. Since each token has only access to a package, you can add various tokens in the `.npmrc` configuration by separating with a comma (`,`) the tokens.
 
