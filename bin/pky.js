@@ -99,7 +99,7 @@ async function main() {
 	 */
 	console.log('This is your .npmrc configuration:');
 	console.log();
-	console.log(`@${organization}:registry=https://npm.pky.suchlab.com`);
+	console.log(`${organization}:registry=https://npm.pky.suchlab.com`);
 	console.log(`//npm.pky.suchlab.com/:_authToken=${randomToken}`);
 	console.log();
 	console.log();
